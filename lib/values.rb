@@ -12,12 +12,6 @@ def get_the_values(groceries)
   #code your solution here!
   list = []
   groceries.each do |x|
-    if x.is_a?(Array)
-      groceries[x].each do |y|
-        #binding.pry
-        list << y
-      end
-    end
   end
   return list
 end
