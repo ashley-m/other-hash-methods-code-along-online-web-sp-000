@@ -11,8 +11,9 @@ require 'pry'
 def get_the_values(groceries)
   #code your solution here!
   list = []
-  groceries.each do |x|
-    
+  groceries.each_key do |x|
+    groceries[x].each do |y|
+      list << y
   end
   return list
 end
