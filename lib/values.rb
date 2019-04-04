@@ -14,7 +14,7 @@ def get_the_values(groceries)
   groceries.each do |x|
     if x.is_a?(Array)
       x.each do |y|
-        binding.pry
+        #binding.pry
         list << groceries[x][y]
       end
     end
