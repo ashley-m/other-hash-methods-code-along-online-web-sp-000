@@ -12,6 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
   list = []
   groceries.each do |x|
+    
   end
   return list
 end
